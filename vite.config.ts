@@ -7,13 +7,7 @@ export default defineConfig(({ mode }) => {
     return {
       server: {
         port: 3001,
-        host: true,
-        cors: {
-          origin: "https://abrarhameem.duckdns.org",
-        },
-      },
-      preview: {
-        allowedHosts: ["abrarhameem.duckdns.org"],
+        host: '0.0.0.0',
       },
       plugins: [react()],
       define: {
