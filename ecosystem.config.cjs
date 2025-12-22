@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'abrar-portfolio-prod',
       script: 'npm',
-      args: 'run preview -- --host 0.0.0.0:3001',
+      args: 'run preview',
       cwd: __dirname,
       instances: 1,
       autorestart: true,
