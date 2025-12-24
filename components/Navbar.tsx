@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
           onClick={openEmailModal}
           className="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition-all shadow-md hover:shadow-lg"
         >
-          Hire Me
+          Get in Touch
         </button>
       </div>
       
