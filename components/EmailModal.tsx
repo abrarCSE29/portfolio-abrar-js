@@ -338,7 +338,7 @@ const EmailModal: React.FC<EmailModalProps> = ({ isOpen, onClose }) => {
               {isLoading ? (
                 <>
                   <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
-                  Opening Email Client...
+                  Sending Message
                 </>
               ) : (
                 'Send Email'
